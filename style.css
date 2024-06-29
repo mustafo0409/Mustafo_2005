@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, main, section, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .card, main .card1, section .card2, footer .card3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.card1 {
+    margin-left: 70px;
+}
+.card {
+    margin-left: 70px;
+}
+.card6 {
+    text-align: center;
+}
+#div1, #div2, #red1, #red2, #yelov, #yelov2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #9E9AA8;
+}
+
+h1 {
+    color: #34313D;
+}
+
+button {
+    border-radius: 15px;
+    height: 35px;
+    width: 90px;
+    background-color: #2BD0D0;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#red3 {
+    font-size: 50px;
+}
+
+#red4, #red5 {
+    width: 170px;
+    height: 45px;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+
+main {
+    height: 650px;
+    position: relative;
+}
+
+.search-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar {
+    position: absolute;
+    top: -50px;
+    width: 50%;
+    height: 100px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.search-bar input {
+    width: 80%;
+    height: 60%;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    padding: 0 20px;
+    font-size: 16px;
+}
+
+section {
+    height: 200px;
+    background-color: brown;
+    margin-top: 50px; 
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.card2 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#blue {
+    font-size: 40px;
+    color: white;
+}
+
+.card3 {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+footer img {
+    margin: 0 10px;
+}
